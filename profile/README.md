@@ -6,13 +6,14 @@
   <img alt="Jericho Digital" src="./assets/logo-light.png" width="480">
 </picture>
 
-### Code that transforms businesses.
+### Software, fully backed.
 
-We build custom software, SaaS products, AI integrations and agentic workflows for companies in LATAM and beyond.
+Custom development, SaaS, AI integrations and agentic workflows for companies in LATAM and beyond.
 
 [**🇺🇸 English**](#-english) · [**🇨🇴 Español**](#-español)
 
 [![Website](https://img.shields.io/badge/jericho--digital.com-0A0A0A?style=flat-square&logo=googlechrome&logoColor=white)](https://jericho-digital.com/)
+[![Developers](https://img.shields.io/badge/developers.jericho--digital.com-0A0A0A?style=flat-square&logo=readthedocs&logoColor=white)](https://developers.jericho-digital.com/)
 [![Medellín, Colombia](https://img.shields.io/badge/Medell%C3%ADn%2C%20Colombia-0A0A0A?style=flat-square&logo=googlemaps&logoColor=white)](https://maps.google.com/?q=Medellin,Colombia)
 [![COT UTC-5](https://img.shields.io/badge/COT%20UTC--5-0A0A0A?style=flat-square)](#contact)
 
@@ -24,33 +25,41 @@ We build custom software, SaaS products, AI integrations and agentic workflows f
 
 ### About us
 
-Jericho Digital is a Colombian software company based in Medellín. We build SaaS products, custom software, AI integrations and agentic workflows for companies across LATAM and beyond — from our own vertical products to custom platforms for partners.
+Jericho Digital is a Colombian software company based in Medellín. We build web and mobile apps, SaaS products and MVPs, AI integrations and agentic workflows, and we [secure applications](https://jericho-digital.com/security) with security reviews and pentesting. We also handle DevOps, cloud and IT consulting for companies across LATAM and beyond.
 
-Our house motto says the rest: **we don't have a big team — we have the right one.**
+Two people, no middlemen. Our house motto says the rest: **we don't have a big team — we have the right one.**
 
 ### Our SaaS products
 
-| Product | What it does | Website |
-|---|---|---|
-| **GeroManager** | Multi-tenant platform for nursing homes — residents, staff, shifts, clinical records and medication tracking. | [geromanager.jericho-digital.com](https://geromanager.jericho-digital.com/) |
-| **EngineFlow** | End-to-end SaaS for motorcycle workshops — service orders, inventory, clients, payroll and DIAN electronic invoicing. | [engineflow.jericho-digital.com](https://engineflow.jericho-digital.com/) |
-| **Mulatero** | B2B marketplace connecting transport companies and drivers in Colombia — load board plus fleet management with real-time GPS. | [mulatero.jericho-digital.com](https://mulatero.jericho-digital.com/) |
-| **Admika** | Residential community management — administration, residents and day-to-day operations for condos and housing complexes. | [admika.jericho-digital.com](https://admika.jericho-digital.com/) |
+| Product | What it does | Status | Website |
+|---|---|---|---|
+| **GeroManager** | Multi-tenant platform for geriatric homes: medical records, residents, medication, payroll and e-invoicing. | Live | [geromanager.jericho-digital.com](https://geromanager.jericho-digital.com/) |
+| **EngineFlow** | Operations for motorcycle workshops: service orders, spare parts, quotes and WhatsApp reminders. | Live | [engineflow.jericho-digital.com](https://engineflow.jericho-digital.com/) |
+| **Admika** | Residential complex management: billing, reservations, requests, virtual assemblies and accounting. Law 675. | In development | [admika.jericho-digital.com](https://admika.jericho-digital.com/) |
+
+### For integrators
+
+Two of our services are available to companies, SaaS products and ERPs through a REST API with API keys and signed webhooks. Guides, the API reference and sandbox details live on the **[developer portal](https://developers.jericho-digital.com/)**.
+
+| Service | What it does |
+|---|---|
+| **Jericho Fiscal** | Colombian electronic invoicing (DIAN): sales invoices, credit notes and debit notes, for one or several issuing companies. |
+| **Jericho Pay** | Payments and subscriptions on Wompi: plans, hosted checkout, auto-renewing subscriptions and refunds, each payment invoiced through Jericho Fiscal. |
 
 ### Engineering
 
-We share a disciplined, opinionated stack across every project:
+Our default stack:
 
-![Next.js](https://img.shields.io/badge/Next.js%2016-0A0A0A?style=flat-square&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React%2019-149ECA?style=flat-square&logo=react&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript%20strict-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma%206-2D3748?style=flat-square&logo=prisma&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL%2017-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind%20v4-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js%2024-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-0A0A0A?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-149ECA?style=flat-square&logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 
-Every Jericho project ships with: `strict` TypeScript, ESLint (airbnb-base) with no barrel files, Jest or Vitest at 80%+ coverage, Vite for SPAs or Next.js App Router for fullstack, hexagonal service architecture, and a standard API response shape across services.
+Our standards ask every new project for `strict` TypeScript, ESLint with no barrel files, Jest or Vitest at 80%+ coverage, Next.js App Router for fullstack or Vite for SPAs, and the same API response shape across services: `{ data, error, msg, meta }`.
 
 A few of the internal tools we use every day will land here as public repos soon:
 
@@ -62,16 +71,7 @@ A few of the internal tools we use every day will land here as public repos soon
 
 <table>
   <tr>
-    <td align="center" width="25%">
-      <a href="https://github.com/jorius">
-        <img src="https://github.com/jorius.png?size=120" width="96" alt="Jose Ríos" />
-        <br />
-        <sub><b>Jose Ríos</b></sub>
-      </a>
-      <br />
-      <sub>Co-Founder & CTO</sub>
-    </td>
-    <td align="center" width="25%">
+    <td align="center" width="50%">
       <a href="https://github.com/jlondo97">
         <img src="https://github.com/jlondo97.png?size=120" width="96" alt="Jhoany Londoño" />
         <br />
@@ -80,23 +80,14 @@ A few of the internal tools we use every day will land here as public repos soon
       <br />
       <sub>Co-Founder & CEO</sub>
     </td>
-    <td align="center" width="25%">
-      <a href="https://github.com/jlondo96">
-        <img src="https://github.com/jlondo96.png?size=120" width="96" alt="Juan Pablo Londoño" />
+    <td align="center" width="50%">
+      <a href="https://github.com/jorius">
+        <img src="https://github.com/jorius.png?size=120" width="96" alt="Jose Ríos" />
         <br />
-        <sub><b>Juan Pablo Londoño</b></sub>
+        <sub><b>Jose Ríos</b></sub>
       </a>
       <br />
-      <sub>Senior FullStack Developer</sub>
-    </td>
-    <td align="center" width="25%">
-      <a href="https://github.com/geralin">
-        <img src="https://github.com/geralin.png?size=120" width="96" alt="Geralin Fernández" />
-        <br />
-        <sub><b>Geralin Fernández</b></sub>
-      </a>
-      <br />
-      <sub>Senior FullStack Developer</sub>
+      <sub>Co-Founder & CTO</sub>
     </td>
   </tr>
 </table>
@@ -106,9 +97,10 @@ A few of the internal tools we use every day will land here as public repos soon
 | | |
 |---|---|
 | **Website** | [jericho-digital.com](https://jericho-digital.com/) |
+| **Developer portal** | [developers.jericho-digital.com](https://developers.jericho-digital.com/) |
 | **General inquiries** | [jericho@jericho-digital.com](mailto:jericho@jericho-digital.com) |
-| **CTO — Jose Ríos** | [jriosc@jericho-digital.com](mailto:jriosc@jericho-digital.com) |
 | **CEO — Jhoany Londoño** | [jlondot@jericho-digital.com](mailto:jlondot@jericho-digital.com) |
+| **CTO — Jose Ríos** | [jriosc@jericho-digital.com](mailto:jriosc@jericho-digital.com) |
 | **Location** | Medellín, Colombia · COT UTC-5 |
 
 ---
@@ -117,33 +109,41 @@ A few of the internal tools we use every day will land here as public repos soon
 
 ### Sobre nosotros
 
-Jericho Digital es una empresa colombiana de desarrollo de software con sede en Medellín. Construimos productos SaaS, software a medida, integraciones de IA y flujos agénticos para empresas en LATAM y más allá — desde nuestros propios productos verticales hasta plataformas a medida para aliados.
+Jericho Digital es una empresa colombiana de desarrollo de software con sede en Medellín. Construimos apps web y móviles, productos SaaS y MVPs, integraciones de IA y flujos agénticos, y [protegemos aplicaciones](https://jericho-digital.com/security) con revisiones de seguridad y pentesting. También hacemos DevOps, cloud y consultoría TI para empresas en LATAM y más allá.
 
-Nuestro lema interno lo resume bien: **no tenemos un equipo grande — tenemos el equipo correcto.**
+Dos personas, cero intermediarios. Nuestro lema interno lo resume bien: **no tenemos un equipo grande — tenemos el equipo correcto.**
 
 ### Nuestros productos SaaS
 
-| Producto | ¿Qué hace? | Sitio |
-|---|---|---|
-| **GeroManager** | Plataforma multi-tenant para hogares geriátricos — residentes, personal, turnos, historias clínicas y trazabilidad de medicación. | [geromanager.jericho-digital.com](https://geromanager.jericho-digital.com/) |
-| **EngineFlow** | SaaS end-to-end para talleres de motos — órdenes de servicio, inventario, clientes, nómina y facturación electrónica DIAN. | [engineflow.jericho-digital.com](https://engineflow.jericho-digital.com/) |
-| **Mulatero** | Marketplace B2B que conecta transportadoras y conductores en Colombia — tablero de cargas más gestión de flota con GPS en tiempo real. | [mulatero.jericho-digital.com](https://mulatero.jericho-digital.com/) |
-| **Admika** | Gestión de conjuntos residenciales — administración, residentes y operación del día a día en propiedad horizontal. | [admika.jericho-digital.com](https://admika.jericho-digital.com/) |
+| Producto | ¿Qué hace? | Estado | Sitio |
+|---|---|---|---|
+| **GeroManager** | Plataforma multi-tenant para hogares gerontológicos: historia clínica, residentes, medicación, nómina y facturación electrónica. | En vivo | [geromanager.jericho-digital.com](https://geromanager.jericho-digital.com/) |
+| **EngineFlow** | Gestión operativa para talleres de motos: órdenes de servicio, repuestos, cotizaciones y recordatorios por WhatsApp. | En vivo | [engineflow.jericho-digital.com](https://engineflow.jericho-digital.com/) |
+| **Admika** | Administración de conjuntos residenciales: cartera, reservas, PQR, asambleas virtuales y contabilidad. Ley 675. | En construcción | [admika.jericho-digital.com](https://admika.jericho-digital.com/) |
+
+### Para integradores
+
+Dos de nuestros servicios están disponibles para empresas, productos SaaS y ERPs mediante una API REST con API keys y webhooks firmados. Las guías, la referencia de la API y los detalles del sandbox están en el **[portal de desarrolladores](https://developers.jericho-digital.com/)**.
+
+| Servicio | ¿Qué hace? |
+|---|---|
+| **Jericho Fiscal** | Facturación electrónica colombiana (DIAN): facturas de venta, notas crédito y notas débito, para una o varias empresas emisoras. |
+| **Jericho Pay** | Pagos y suscripciones con Wompi: planes, checkout alojado, suscripciones con renovación automática y reembolsos; cada pago se factura a través de Jericho Fiscal. |
 
 ### Ingeniería
 
-Compartimos un stack disciplinado y opinado en cada proyecto:
+Nuestro stack por defecto:
 
-![Next.js](https://img.shields.io/badge/Next.js%2016-0A0A0A?style=flat-square&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React%2019-149ECA?style=flat-square&logo=react&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript%20strict-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma%206-2D3748?style=flat-square&logo=prisma&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL%2017-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind%20v4-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js%2024-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-0A0A0A?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-149ECA?style=flat-square&logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 
-Todos nuestros proyectos incluyen: TypeScript `strict`, ESLint (airbnb-base) sin archivos barrel, Jest o Vitest con 80% o más de cobertura, Vite para SPAs o Next.js App Router para fullstack, arquitectura hexagonal por servicios y una forma estándar de respuesta de API en todos los servicios.
+Nuestros estándares piden en cada proyecto nuevo TypeScript `strict`, ESLint sin archivos barrel, Jest o Vitest con 80% o más de cobertura, Next.js App Router para fullstack o Vite para SPAs, y la misma forma de respuesta de API en todos los servicios: `{ data, error, msg, meta }`.
 
 Varias herramientas internas que usamos todos los días se publicarán como repositorios públicos próximamente:
 
@@ -155,16 +155,7 @@ Varias herramientas internas que usamos todos los días se publicarán como repo
 
 <table>
   <tr>
-    <td align="center" width="25%">
-      <a href="https://github.com/jorius">
-        <img src="https://github.com/jorius.png?size=120" width="96" alt="Jose Ríos" />
-        <br />
-        <sub><b>Jose Ríos</b></sub>
-      </a>
-      <br />
-      <sub>Co-Fundador & CTO</sub>
-    </td>
-    <td align="center" width="25%">
+    <td align="center" width="50%">
       <a href="https://github.com/jlondo97">
         <img src="https://github.com/jlondo97.png?size=120" width="96" alt="Jhoany Londoño" />
         <br />
@@ -173,23 +164,14 @@ Varias herramientas internas que usamos todos los días se publicarán como repo
       <br />
       <sub>Co-Fundador & CEO</sub>
     </td>
-    <td align="center" width="25%">
-      <a href="https://github.com/jlondo96">
-        <img src="https://github.com/jlondo96.png?size=120" width="96" alt="Juan Pablo Londoño" />
+    <td align="center" width="50%">
+      <a href="https://github.com/jorius">
+        <img src="https://github.com/jorius.png?size=120" width="96" alt="Jose Ríos" />
         <br />
-        <sub><b>Juan Pablo Londoño</b></sub>
+        <sub><b>Jose Ríos</b></sub>
       </a>
       <br />
-      <sub>Desarrollador FullStack Senior</sub>
-    </td>
-    <td align="center" width="25%">
-      <a href="https://github.com/geralin">
-        <img src="https://github.com/geralin.png?size=120" width="96" alt="Geralin Fernández" />
-        <br />
-        <sub><b>Geralin Fernández</b></sub>
-      </a>
-      <br />
-      <sub>Desarrolladora FullStack Senior</sub>
+      <sub>Co-Fundador & CTO</sub>
     </td>
   </tr>
 </table>
@@ -199,9 +181,10 @@ Varias herramientas internas que usamos todos los días se publicarán como repo
 | | |
 |---|---|
 | **Sitio web** | [jericho-digital.com](https://jericho-digital.com/) |
+| **Portal de desarrolladores** | [developers.jericho-digital.com](https://developers.jericho-digital.com/) |
 | **Consultas generales** | [jericho@jericho-digital.com](mailto:jericho@jericho-digital.com) |
-| **CTO — Jose Ríos** | [jriosc@jericho-digital.com](mailto:jriosc@jericho-digital.com) |
 | **CEO — Jhoany Londoño** | [jlondot@jericho-digital.com](mailto:jlondot@jericho-digital.com) |
+| **CTO — Jose Ríos** | [jriosc@jericho-digital.com](mailto:jriosc@jericho-digital.com) |
 | **Ubicación** | Medellín, Colombia · COT UTC-5 |
 
 ---
